@@ -3,6 +3,7 @@ package flags
 type Command string
 
 const (
+	CommandHelp   Command = "help"
 	CommandScan   Command = "scan"
 	CommandScans  Command = "scans"
 	CommandShow   Command = "show"
